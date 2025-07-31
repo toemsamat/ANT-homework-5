@@ -15,7 +15,6 @@
         width: 100%;
         display: flex;
         list-style: none;
-
         background-color: #9ea8b7;
       }
       .custom-nav .nav-item .nav-link {
@@ -43,7 +42,7 @@
       }
 
       .category-list .list-group-item {
-        background-color: #d4d8dd;
+        background-color: #cacdd3;
         color: white;
         border: 1px solid #c0c4c8;
         font-weight: 500;
@@ -52,6 +51,13 @@
       .category-list .list-group-item:hover {
         background: linear-gradient(to right, #93e1c2, #8ba8e6);
         cursor: pointer;
+      }
+      .list-group-item span{
+        display: inline-block;
+       transition: transform 0.3s ease;
+      }
+       .list-group-item:hover span{
+        transform: translateX(5px);
       }
       .brand {
         background-color: #9ea8b7;
@@ -99,44 +105,44 @@
           </ul>
         </div>
       </nav>
-      <section class="banner">
+      <section>
         <div class="container">
           <img src="/img/2.png" alt="" class="w-100 h-auto object-cover" />
         </div>
       </section>
-      <section class="category mt-3">
-        <div class="container">
+      <section >
+        <div class="container mt-3">
           <div class="d-flex gap-3">
             <div class="w-25">
               <div class="custom-category ">
                 <div class="category-header">Man Category</div>
                 <ul class="list-group category-list mb-0">
-                  <li class="list-group-item">Addidas</li>
-                  <li class="list-group-item">Oxford</li>
-                  <li class="list-group-item">Kito</li>
-                  <li class="list-group-item">Puma</li>
-                  <li class="list-group-item">Walker</li>
-                  <li class="list-group-item">Nike</li>
-                  <li class="list-group-item">Olympic</li>
-                  <li class="list-group-item">Sessor</li>
+                  <li class="list-group-item"><span>Addidas</span></li>
+                  <li class="list-group-item"><span>Oxford</span></li>
+                  <li class="list-group-item"><span>Kito</span></li>
+                  <li class="list-group-item"><span>Puma</span></li>
+                  <li class="list-group-item"><span>Walker</span></li>
+                  <li class="list-group-item"><span>Nike</span></li>
+                  <li class="list-group-item"><span>Olympic</span></li>
+                  <li class="list-group-item"><span>Sessor</span></li>
                 </ul>
               </div>
               <div class="custom-category mt-3">
                 <div class="category-header">Man Category</div>
                 <ul class="list-group category-list mb-0">
-                  <li class="list-group-item">Addidas</li>
-                  <li class="list-group-item">Oxford</li>
-                  <li class="list-group-item">Kito</li>
-                  <li class="list-group-item">Puma</li>
-                  <li class="list-group-item">Walker</li>
-                  <li class="list-group-item">Nike</li>
-                  <li class="list-group-item">Olympic</li>
-                  <li class="list-group-item">Sessor</li>
+                  <li class="list-group-item"><span>Addidas</span></li>
+                  <li class="list-group-item"><span>Oxford</span></li>
+                  <li class="list-group-item"><span>Kito</span></li>
+                  <li class="list-group-item"><span>Puma</span></li>
+                  <li class="list-group-item"><span>Walker</span></li>
+                  <li class="list-group-item"><span>Nike</span></li>
+                  <li class="list-group-item"><span>Olympic</span></li>
+                  <li class="list-group-item"><span>Sessor</span></li>
                 </ul>
               </div>
             </div>
             <div class="w-75">
-              <div class="container">
+            
                 <div class="d-flex justify-content-between brand">
                   <div class="fs-5 fw-bold text-white">Nike</div>
                   <div class="fs-5 fw-bold text-white">Read more</div>
@@ -215,7 +221,7 @@
                     ></div>
                   </div>
                 </div>
-              </div>
+              
             </div>
           </div>
         </div>
